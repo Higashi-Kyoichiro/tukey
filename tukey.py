@@ -1,10 +1,10 @@
 # -*= coding:utf-8 -*-
 import numpy as np
-import scipy.stats
 import pandas as pd
-import math
-import scipy.optimize
 from statsmodels.stats.libqsturng import psturng, qsturng
+#import scipy.stats
+#import math
+#import scipy.optimize
 
 
 def tukey_hsd(args, ddof = 1):
